@@ -1,5 +1,4 @@
 import React from "react";
-import "../index.css";
 
 function Navbar() {
   return (
@@ -16,9 +15,7 @@ function Navbar() {
             </span>
           </a>
           <a href="#" className="flex items-center">
-            <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">
-              GitHub
-            </span>
+            <a href="#">Dark Mode</a>
           </a>
         </div>
       </nav>
@@ -27,24 +24,24 @@ function Navbar() {
           <div className="flex items-center">
             <ul className="flex flex-row mt-0 mr-6 space-x-8 text-sm font-medium">
               <li>
-                <a
-                  href="#"
+              <a
+                  href="/"
                   className="text-gray-900 dark:text-white hover:underline mx-1"
                   aria-current="page"
                 >
                   Home
                 </a>
                 <a
-                  href="#"
+                  href="#Projects"
                   className="text-gray-900 dark:text-white hover:underline mx-1"
                 >
                   Projects
                 </a>
                 <a
-                  href="#"
+                  href="#Contact"
                   className="text-gray-900 dark:text-white hover:underline mx-1"
                 >
-                  Socials
+                  Contact
                 </a>
               </li>
             </ul>
